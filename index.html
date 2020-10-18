@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    
+    <link rel="icon" href="img/tick.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-body">
+    <div class="contain">
+<div class="header">
+   <div class="clock"> 
+    <div id="date"></div>
+   </div>
+    <div class="use">
+        <i class="fas fa-user-secret"></i>
+        <div class="user"></div>
+    </div>
+</div>
+<hr class="mb-5">
+<div class="content">   
+        <ul class="list-group" id="list">
+        </ul>
+    <div class="add-to-do">
+<i class="fas fa-plus-circle"></i>
+<input type="text" id="input" placeholder="add a to-do">
+<div id="err"></div>
+    </div>
+</div>
+    </div>
+    <p class="copyRight">Created by Naru.</p>
+</div>
+    <script src="app.js"></script>
+    <!-- <script src="addLi.js"></script> -->
+    <script src="https://kit.fontawesome.com/0d4e03b998.js" crossorigin="anonymous"></script>
+</body>
+</html>

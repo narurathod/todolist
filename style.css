@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    /* font-size: 1.1rem; */
+}
+.container-body{
+    height: 100%;
+    background-color: #5aafca;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:5% 0;
+    padding-bottom: 1rem;
+}
+.contain {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: normal;
+    padding: 2rem;
+   
+    background-color: #fff;
+    width: 35%;
+    box-shadow: 10px 20px 40px rgba(0,0,0,0.3);
+}
+
+.item{
+    display: flex !important;
+    flex-direction: row;
+}
+
+.none{
+    display: none;
+}
+
+input{
+    border-radius: 20px;
+    border: 1px solid #5aafca;
+    padding: 8px;
+    padding-left: 20px;
+    font-size: 14px !important;
+    outline: none;
+    width: 90%;
+}
+.fa-plus-circle{
+    font-size: 33px;
+    color: #5aafca;
+    vertical-align: middle;
+}
+#date {
+    color: tomato;
+}
+.fas.fa-trash-alt{
+    margin-left: auto;
+    color: #F44336;
+    padding-left: 30px;
+    cursor: pointer;
+    order: 3;
+}
+.fas.fa-trash-alt:hover{
+   transition: 1s ease;
+    color: #d4362b;
+    
+}
+.fa-check-double, .fa-check-circle{
+    margin-right: 8px;
+    cursor: pointer;
+    order: 1;
+    color: #349244;
+}
+
+.fa-check-circle{
+    color: #349244;
+}
+
+.lineThrough{
+    margin-bottom: 0px;
+    line-height: 16px;
+    order:2;
+   
+}
+.fa-sync{
+    color: #349244;
+    font-size: 20px;
+}
+
+
+
+  .removed{
+      display: none !important;
+  }
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clock{
+    order: 2;
+}
+
+.use{
+    order: 1;
+}
+
+.clock, .use{
+    display: flex;
+    flex-direction: row;
+}
+
+.user{
+    padding-left: 7px;
+    margin-top: -2px;
+    color: gray;
+    font-size: 17px;
+}
+.fa-user-secret{
+    color: gray;
+    font-size: 21px;
+}
+
+.copyRight{
+    padding-top: 3rem;
+    margin: 0;
+    font-style: oblique;
+    color: #fff;
+    font-size: 12px;
+    margin-left: auto;
+    padding-right: 2rem;
+}
+
+
+
+@media (max-width:1250px){
+
+    .contain {
+        width: 70%;
+    }
+    input {
+        width: 85%;
+    }
+    
+}
+@media (max-width:768px){
+
+    .contain {
+        padding: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 90%;
+    }
+    input {
+        width: 85%;
+    }
+    .mb-5 {
+        margin-bottom: 1rem!important;
+    }
+}
