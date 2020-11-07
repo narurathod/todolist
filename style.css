@@ -132,6 +132,14 @@ input{
     margin-left: auto;
     padding-right: 2rem;
 }
+.copyRight a{
+    color: #fff;
+    text-decoration: none;
+}
+.copyRight a:hover{
+ color: tomato;
+}
+    
 
 
 
