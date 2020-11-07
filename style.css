@@ -133,11 +133,12 @@ input{
     padding-right: 2rem;
 }
 .copyRight a{
-    color: #fff;
+    color: #fff !important;
     text-decoration: none;
 }
 .copyRight a:hover{
- color: tomato;
+ color: tomato !important;
+    text-decoration: none;
 }
     
 
